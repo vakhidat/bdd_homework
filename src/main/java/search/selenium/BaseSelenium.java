@@ -1,11 +1,10 @@
-package search;
+package search.selenium;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BaseSelenium {
     public static WebDriver driver;
-
 
     public static void init(){
         driver = new FirefoxDriver();

@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-        <suite name="ebay-bdd">
-    <test name="first">
+        <suite name="ebay-bdd" parallel="false">
+    <test parallel="false" name="first" preserve-order="true">
         <packages>
-
+            <package name="search.step_definition"/>
         </packages>
     </test>
 </suite>
